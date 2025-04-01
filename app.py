@@ -44,7 +44,7 @@ button:hover {
 
 /* Imagem de fundo */
 .stApp {
-    background-image: url('fundo.png');
+    background-image: url('https://github.com/sid-almeida/new_pc/blob/main/fundo.png?raw=true');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ pc_label = {0 : 'Baixo', 1 : 'Médio', 2 : 'Alto', 3 : 'Muito Alto'}
 
 # Create a sidebar header
 with st.sidebar:
-    st.image("logo.png", width=250)
+    st.image("https://github.com/sid-almeida/new_pc/blob/main/logo.png?raw=true", width=250)
     st.title("Potencial de Crescimento")
     choice = st.radio("**Navegação:**", ("Sobre", "Previsão em Lote"))
     st.info('**Nota:** Por favor, esteja ciente de que este aplicativo é destinado exclusivamente para fins educacionais. É fortemente desaconselhável utilizar esta ferramenta para tomar quaisquer decisões financeiras.')
