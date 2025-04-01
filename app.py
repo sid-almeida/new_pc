@@ -12,8 +12,8 @@ st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
-    body, .stApp {
-        font-family: 'Montserrat', sans-serif;
+    html, body, [class*="st-"], .stApp, .css-10trblm, .css-1v3fvcr, .css-18e3th9, .css-1d391kg {
+        font-family: 'Montserrat', sans-serif !important;
     }
     </style>
     """, unsafe_allow_html=True)
