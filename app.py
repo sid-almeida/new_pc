@@ -6,6 +6,17 @@ import joblib
 import altair as alt
 import requests
 
+# Fontes
+
+st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+    body, .stApp {
+        font-family: 'Montserrat', sans-serif;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 # Estilo HTML CSS
 
