@@ -1,0 +1,21 @@
+[theme]
+primaryColor = "#FFD700"  # Dourado
+backgroundColor = "#111111"  # Preto escuro
+secondaryBackgroundColor = "#222222"  # Cinza escuro
+textColor = "#FFD700"  # Dourado para contraste
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+
+[client]
+toolbarMode = "minimal"
+
+[global]
+showWarningOnDirectExecution = false
+
+[app]
+title = "PC Calculator"
+icon = "https://github.com/sid-almeida/pc_calculator/blob/main/icon.png?raw=true"
